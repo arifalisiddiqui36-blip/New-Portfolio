@@ -78,7 +78,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
             <a
               href="/resume.pdf"
-              download
+              download="Arif-Siddiqui-Resume.pdf"
               className="group inline-flex items-center gap-2 rounded-full gradient-accent px-6 py-3 text-sm font-medium text-white shadow-lg glow-blue transition-transform hover:scale-105"
             >
               <Download className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
@@ -95,8 +95,8 @@ export function Hero() {
 
           <div className="mt-8 flex items-center justify-center gap-3 lg:justify-start">
             {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+              { icon: Github, href: "https://github.com/arifalisiddiqui36-blip", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/arif-siddiqui-aaa2b335b/", label: "LinkedIn" },
               { icon: Mail, href: "mailto:arif@example.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <a

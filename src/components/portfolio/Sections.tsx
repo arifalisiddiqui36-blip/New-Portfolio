@@ -189,7 +189,7 @@ export function Projects() {
                 </div>
                 <div className="mt-6 flex gap-3 pt-2">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/arifalisiddiqui36-blip"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-white/10 px-4 py-2 text-xs font-medium transition-colors hover:bg-white/5"
@@ -290,7 +290,7 @@ export function GitHubSection() {
               </div>
             </div>
             <a
-              href="https://github.com"
+              href="https://github.com/arifalisiddiqui36-blip"
               target="_blank"
               rel="noreferrer"
               className="glass glass-hover flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium"
@@ -378,8 +378,8 @@ export function Contact() {
           <motion.div {...fadeUp} className="space-y-4">
             {[
               { icon: Mail, label: "Email", value: "arif.siddiqui@example.com", href: "mailto:arif.siddiqui@example.com" },
-              { icon: Github, label: "GitHub", value: "github.com/arifsiddiqui", href: "https://github.com" },
-              { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/arifsiddiqui", href: "https://linkedin.com" },
+              { icon: Github, label: "GitHub", value: "github.com/arifalisiddiqui36-blip", href: "https://github.com/arifalisiddiqui36-blip" },
+              { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/arif-siddiqui-aaa2b335b", href: "https://www.linkedin.com/in/arif-siddiqui-aaa2b335b/" },
               { icon: MapPin, label: "Location", value: "India · Open to remote", href: "#" },
             ].map((c) => (
               <a
@@ -471,8 +471,8 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-3">
           {[
-            { icon: Github, href: "https://github.com", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/arifalisiddiqui36-blip", label: "GitHub" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/arif-siddiqui-aaa2b335b/", label: "LinkedIn" },
             { icon: Mail, href: "mailto:arif@example.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a

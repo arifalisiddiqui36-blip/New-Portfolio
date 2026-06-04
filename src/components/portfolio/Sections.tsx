@@ -133,18 +133,24 @@ const projects = [
     desc: "Designed a segmented, secure hospital LAN with VLANs, OSPF routing, ACL-based access control, and centralized DHCP — built in Cisco Packet Tracer.",
     tags: ["VLAN", "OSPF", "ACL", "DHCP"],
     image: projectNetwork,
+    codeUrl: "https://github.com/arifalisiddiqui36-blip",
+    liveUrl: "#",
   },
   {
     title: "Hospital Website Hosted on AWS EC2",
     desc: "Deployed a responsive hospital website on an Ubuntu EC2 instance with Apache, configured security groups, and managed the deployment via Linux CLI.",
     tags: ["Apache", "Linux", "AWS EC2"],
     image: projectAws,
+    codeUrl: "https://github.com/arifalisiddiqui36-blip",
+    liveUrl: "#",
   },
   {
     title: "Personal Portfolio Website",
     desc: "A premium, dark-aesthetic portfolio built with React and Tailwind CSS, featuring glassmorphism, particle effects, and smooth Framer Motion animations.",
     tags: ["React", "Next.js", "Tailwind CSS"],
     image: projectPortfolio,
+    codeUrl: "https://github.com/arifalisiddiqui36-blip/New-Portfolio",
+    liveUrl: "https://obsidian-dev-zone-7b74689a-main.vercel.app",
   },
 ];
 
@@ -189,7 +195,7 @@ export function Projects() {
                 </div>
                 <div className="mt-6 flex gap-3 pt-2">
                   <a
-                    href="https://github.com/arifalisiddiqui36-blip"
+                    href={p.codeUrl}
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-white/10 px-4 py-2 text-xs font-medium transition-colors hover:bg-white/5"
@@ -197,7 +203,9 @@ export function Projects() {
                     <Github className="h-3.5 w-3.5" /> Code
                   </a>
                   <a
-                    href="#"
+                    href={p.liveUrl}
+                    target="_blank"
+                    rel="noreferrer"
                     className="inline-flex flex-1 items-center justify-center gap-2 rounded-full gradient-accent px-4 py-2 text-xs font-medium text-white"
                   >
                     <ExternalLink className="h-3.5 w-3.5" /> Live
